@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "232271254003",
-    "project_id": "mobil-kurye-73701",
-    "storage_bucket": "mobil-kurye-73701.appspot.com"
+    "project_number": "762955562249",
+    "project_id": "mobil-courier",
+    "storage_bucket": "mobil-courier.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:232271254003:android:ea59874904436117b4c286",
+        "mobilesdk_app_id": "1:762955562249:android:8f41763d440addd135e7d8",
         "android_client_info": {
           "package_name": "com.example.mobilkurye"
         }
       },
       "oauth_client": [
         {
-          "client_id": "232271254003-curvse5c2kckmm5qgr9ltm5qshuqpmls.apps.googleusercontent.com",
+          "client_id": "762955562249-0s186fuuhc0helbs81bintkn6sier9eg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCwSVBGS0o8RBoaCRlzay8wBG77pCoBz5E"
+          "current_key": "AIzaSyDNO3hvJIiotcpaL7tlWeFal1uXsYudmZ0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "232271254003-curvse5c2kckmm5qgr9ltm5qshuqpmls.apps.googleusercontent.com",
+              "client_id": "762955562249-0s186fuuhc0helbs81bintkn6sier9eg.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
