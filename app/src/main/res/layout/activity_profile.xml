@@ -14,8 +14,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:background="#D7F46C36"
-            android:padding="20dp">
+            android:background="#D7E4DDD8"
+            android:padding="10dp">
 
             <ImageView
                 android:id="@+id/profile_image"
@@ -25,14 +25,29 @@
                 android:src="@drawable/ic_baseline_person_24" />
 
             <TextView
+                android:id="@+id/fullname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@id/profile_image"
                 android:fontFamily="@font/bungee"
-                android:text="Raymond Redd"
+                android:text="Csa"
                 android:textSize="20sp" />
+
+            <TextView
+                android:id="@id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="vfsa"
+                android:layout_toRightOf="@id/profile_image"
+                android:layout_below="@id/fullname"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-10dp"/>
+
+
+
         </RelativeLayout>
 
         <LinearLayout
@@ -47,14 +62,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
-                android:hint="Full Name">
+                android:hint="Full Name"
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_baseline_emoji_people_24"
                     android:drawablePadding="10dp"
-                    android:text="Raymond Redd" />
+                    android:text="Cafsan"
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -71,7 +88,8 @@
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
                     android:drawablePadding="10dp"
-                    android:text="raymond_red@gmail.com" />
+                    android:text="mfsa.com"
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -88,7 +106,8 @@
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_outline_phone_in_talk_24"
                     android:drawablePadding="10dp"
-                    android:text="1-800-392-42643" />
+                    android:text="58965"
+                    />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -105,16 +124,18 @@
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_baseline_password_24"
                     android:drawablePadding="10dp"
-                    android:text="9763hey" />
+                    android:text="123456"
+                     />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
                 android:layout_width="match_parent"
+                android:text="Update"
                 android:layout_height="50dp"
                 android:background="#D7F46C36"
                 android:fontFamily="@font/bungee"
-                android:text="Update"
+
                 />
 
 
